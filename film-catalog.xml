@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Remember that here, in XML, you can create your own tags! And that your html scripts should reflect these tags.-->
 <CATALOG>
-    <FILM>
-        
+     <FILM>
+        <FILM-NAME>BIG BUTS</FILM-NAME> 
+        <DIRECTOR> YOUR MA </DIRECTOR> 
     </FILM>
     <FILM>
-        
+        <FILM-NAME>BIG BUTS</FILM-NAME> 
+        <DIRECTOR> YOUR MA </DIRECTOR>
     </FILM>
     <FILM>
-        
+        <FILM-NAME>BIG BUTS</FILM-NAME> 
+        <DIRECTOR> YOUR MA </DIRECTOR>
     </FILM>
 </CATALOG>
