@@ -26,6 +26,10 @@
                 x[i].getElementsByTagName("FILM-NAME")[0].childNodes[0].nodeValue +         //node and child value is telling this script to gather all information underneath "title"
                 "</td><td>" +
                 x[i].getElementsByTagName("DIRECTOR")[0].childNodes[0].nodeValue +
+                "</td></tr>" +
+                 x[i].getElementsByTagName("MAIN-STAR")[0].childNodes[0].nodeValue +
+                "</td></tr>" +
+                  x[i].getElementsByTagName("CO-STAR")[0].childNodes[0].nodeValue +
                 "</td></tr>";
               }
               document.getElementById("results").innerHTML = table;
