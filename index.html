@@ -19,13 +19,13 @@
             function myFunction(xml) {
               var i;
               var xmlDoc = xml.responseXML;
-              var table="<tr><th>#</th><th>#</th></tr>";
-              var x = xmlDoc.getElementsByTagName("CD");
+              var table="<tr><th>Film Name</th><th>Director</th></tr>";
+              var x = xmlDoc.getElementsByTagName("FILM");
               for (i = 0; i <x.length; i++) { 
                 table += "<tr><td>" +
-                x[i].getElementsByTagName("#")[0].childNodes[0].nodeValue +         //node and child value is telling this script to gather all information underneath "title"
+                x[i].getElementsByTagName("FILM-NAME")[0].childNodes[0].nodeValue +         //node and child value is telling this script to gather all information underneath "title"
                 "</td><td>" +
-                x[i].getElementsByTagName("#")[0].childNodes[0].nodeValue +
+                x[i].getElementsByTagName("DIRECTOR")[0].childNodes[0].nodeValue +
                 "</td></tr>";
               }
               document.getElementById("results").innerHTML = table;
